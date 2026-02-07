@@ -24,7 +24,7 @@ systemctl daemon-reload
 
 
 dnf install mongod-mongosh -y
-mongosh --host mongodb-dev.anjalidevops72.shop </app/db/master-data.js
+mongosh--host mongodb-dev.anjalidevops72.shop </app/db/master-data.js
 
 systemctl enable catalogue
 systemctl restart catalogue
