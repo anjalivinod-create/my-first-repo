@@ -1,4 +1,4 @@
-cp /my-first-repo /etc/yum.repos.d/mongo.repo
+cp /home/ec2-user/my-first-repo /etc/yum.repos.d/mongo.repo
 
 dnf install mongodb-org -y
 
